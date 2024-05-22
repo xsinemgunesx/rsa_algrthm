@@ -25,16 +25,6 @@ Calculate n and phi(n), then choose e and compute d using the mod_inverse functi
 The message is converted to ASCII and then encrypted using the public key.
 4. Decryption:
 The ciphertext is decrypted using the private key to retrieve the original message.
-## Example Output
-
-Public Key :  <public_exponent>
-Private Key :  <private_exponent>
-n :  <modulus>
-Phi(n) :  <totient>
-p: <prime_p>
-q: <prime_q>
-Cipher text :  [<encrypted_values>]
-Original text :  Hello World
 
 ### Notes
 The is_prime function is a simple and inefficient way to check for primality, and could be improved for larger ranges.
