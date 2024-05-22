@@ -1,4 +1,4 @@
-#**RSA Encryption in Python**
+#RSA Encryption in Python
 
 This project demonstrates a simple implementation of the RSA encryption algorithm in Python. RSA (Rivest-Shamir-Adleman) is a widely used public-key cryptosystem for secure data transmission.
 
