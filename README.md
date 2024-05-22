@@ -16,3 +16,27 @@ For each ASCII value m, compute the ciphertext c = (m^e) % n.
 ### Decryption:
 For each ciphertext c, compute the original message m = (c^d) % n.
 Convert the ASCII values back to characters to retrieve the original message.
+## Usage
+1. Prime Generation:
+The generate_prime function generates a random prime number within a given range.
+2. Key Calculation:
+Calculate n and phi(n), then choose e and compute d using the mod_inverse function.
+3. Encryption:
+The message is converted to ASCII and then encrypted using the public key.
+4. Decryption:
+The ciphertext is decrypted using the private key to retrieve the original message.
+## Example Output
+
+Public Key :  <public_exponent>
+Private Key :  <private_exponent>
+n :  <modulus>
+Phi(n) :  <totient>
+p: <prime_p>
+q: <prime_q>
+Cipher text :  [<encrypted_values>]
+Original text :  Hello World
+
+### Notes
+The is_prime function is a simple and inefficient way to check for primality, and could be improved for larger ranges.
+The generate_prime function may need optimization for generating larger primes efficiently.
+For a real-world implementation, use well-tested libraries such as PyCrypto for cryptographic operations.
